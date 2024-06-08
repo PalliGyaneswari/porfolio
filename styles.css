@@ -1,0 +1,125 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    margin:0;
+    background-color: #f0f8ff;
+    font-size: 20px;
+}
+    
+h1{
+    margin:0;
+}
+header{
+    height:100vh;
+    color:black;
+    background-color:lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: wrap;
+    flex-wrap: wrap;
+}
+.buttonflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    color:blue;
+}
+
+header h1{
+    color:black;
+    text-align: center;
+}
+.button{
+    margin:15px;
+    height:30px;
+    width:100px;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: all 3s ease 0s;
+    transform: translateY(x);
+
+
+}
+    
+
+.button:hover{
+    color:cyan;
+    background-color: rgb(76, 10, 162);
+    transform: translateY(x);
+}
+main{
+    padding:20px;
+}
+section{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about{
+    height:100vh;
+    border:1px solid grey;
+    border-radius: 20px;
+}
+#skills{
+    height:100vh;
+    border:1px solid grey;
+    border-radius: 20px;
+}
+#projects{
+    height:100vh;
+    border:1px solid grey;
+    border-radius: 20px;
+}
+#contact{
+    height:100vh;
+    border:1px solid grey;
+    border-radius: 20px;
+}
+form div{
+    padding: 5px;
+}
+.submit{
+    height:30px;
+    width:100px;
+    border:solid;
+    border-radius: 10px;
+    cursor:pointer;
+
+}
+.submit:hover{
+    color:black;
+    background-color:lightskyblue;
+}
+input{
+    border-radius: 5px;
+    border:1px solid rgb(22, 21, 21);
+    height:25px;
+}
+.top{
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    padding:20px;
+    border-radius: 50%;
+    background-color: burlywood;
+}
+footer{
+    height:130px;
+    background-color: black;
+    color:lightgray
+
+}
+
+
